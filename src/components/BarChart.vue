@@ -3,17 +3,22 @@
 </template>
 
 <script>
-  export default {
-    mounted() {
+  const BarChart = require('./BarChart.js');
 
+  export default {
+    name: 'bar-chart',
+    mounted() {
+      BarChart.barChart();
     },
   };
 </script>
 
-<style>
-  /* from http://bl.ocks.org/juan-cb/c2f3329d3fb3b8e4f7ff */
 
-  body {
+<style>
+  /* Don't use scoped styles since the contents of divChart is controlled by the d3 code, not Vue.js
+  /* adapted from http://bl.ocks.org/juan-cb/c2f3329d3fb3b8e4f7ff */
+
+  #divChart {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 960px;
     height: 500px;

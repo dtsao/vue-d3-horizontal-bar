@@ -1,6 +1,8 @@
 # vue-d3-horizontal-bar
 
-> A Vue.js project
+> A Vue.js project based on the vue webpack template with HelloWorld.vue modified to display a d3 grouped horizontal bar chart
+adapted from <http://bl.ocks.org/juan-cb/c2f3329d3fb3b8e4f7ff>
+
 
 ## Build Setup
 
