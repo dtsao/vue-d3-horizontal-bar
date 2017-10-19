@@ -1,5 +1,8 @@
 <template>
-  <div id="divChart"></div>
+  <div>
+    <h2>d3 grouped horizontal bar chart adapted from <a href="http://bl.ocks.org/juan-cb/c2f3329d3fb3b8e4f7ff">http://bl.ocks.org/juan-cb/c2f3329d3fb3b8e4f7ff</a></h2>
+    <div id="divChart"></div>
+  </div>
 </template>
 
 <script>
@@ -23,6 +26,8 @@
     width: 960px;
     height: 500px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   svg {
